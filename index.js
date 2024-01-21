@@ -94,10 +94,10 @@ app.post("/save/update", reserveController.getReservePostUpdate);
 
 
 // 결재내역
-// app.get("/payment",paymentController.getpaymentPosts);
-// app.get("/payment/total", paymentController.getpaymentPostTotal);
+app.get("/paymentlist",paymentController.getPaymentPosts);
+app.get("/paymentlist/total", paymentController.getPaymentPostTotal);
 // // 결재내역 삭제
-// app.delete("/payment/delete/:id", paymentController.getpaymentPostDelete);
+ app.delete("/paymentlist/delete/:id", paymentController.getPaymentPostDelete);
  // 결재내역 저장
  app.post("/payment/:title", paymentController.getPayment);
 
