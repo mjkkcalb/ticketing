@@ -6,6 +6,9 @@ const paymentSchema = new mongoose.Schema({
   eventData: Object,
   selectedDate: Date,
   numberOfPeople: Number,
+  paymentMethod: String,
+  paymentTime: Date,
+  totalPrice: String,
 });
 
 const Payment = mongoose.model("Payment", paymentSchema);

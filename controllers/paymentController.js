@@ -11,10 +11,21 @@ exports.getPaymentPosts = async (req, res) => {
       .skip(skip)
       .limit(perPage)
       .lean();
+
+    // 추가된 부분 시작
+    const enrichedPaymentPosts = Paymentposts.map(post => {
+      return {
+        ...post,
+        paymentMethod: post.paymentMethod || '',  // 수정된 부분
+        paymentTime: post.paymentTime || null,    // 수정된 부분
+      };
+    });
+    // 추가된 부분 끝
+
     const totalPaymentPosts = await Payment.countDocuments();
     const totalPaymentPages = Math.ceil(totalPaymentPosts / perPage);
 
-    res.json({ docs: Paymentposts, totalPaymentPages });
+    res.json({ docs: enrichedPaymentPosts, totalPaymentPages });
   } catch (error) {
     console.log("Paymentposts err: ", error);
     res.status(500).send("Paymentposts 서버 오류");
@@ -33,9 +44,9 @@ exports.getPaymentPostTotal = async (req, res) => {
 
 
 exports.getPayment = async (req, res) => {
-  const { eventData, selectedDate, numberOfPeople } = req.body;
+  const { eventData, selectedDate, numberOfPeople, paymentMethod, paymentTime, totalPrice } = req.body;
   try {
-    const newPayment = new Payment({ eventData, selectedDate, numberOfPeople });
+    const newPayment = new Payment({ eventData, selectedDate, numberOfPeople,paymentMethod: paymentMethod, paymentTime: paymentTime, totalPrice });
     await newPayment.save();
     res.sendStatus(200);
   } catch (error) {
