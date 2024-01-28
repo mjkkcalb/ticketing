@@ -122,14 +122,14 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     
     
     1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
-        1. axios를 사용해 서버에 http 요청을 보내고 받아옴
+        a. axios를 사용해 서버에 http 요청을 보내고 받아옴
             
             `const axios = require("axios")`
             
-        2. 비동기 함수로 클라이언트로부터의 요청(**`req`**)과 서버로의 응답(**`res`**)을 처리. Express의 라우터에서 사용됨
-        3. 데이터를 받아오기 위해 url 값과 필수 요청 값 작성
-            1. 인증키는 .env를 사용해 값을 가려줌
-            2. .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
+        b. 비동기 함수로 클라이언트로부터의 요청(**`req`**)과 서버로의 응답(**`res`**)을 처리. Express의 라우터에서 사용됨
+        c. 데이터를 받아오기 위해 url 값과 필수 요청 값 작성
+            - 인증키는 .env를 사용해 값을 가려줌
+            - .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
             
             ![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
             
@@ -148,16 +148,16 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
                     }
             ```
             
-        4. cors 에러
+        d. cors 에러
             1. `const cors = require("cors");`
             2. `app.options("*", cors());`
             3. front file → package.json → `proxy` 추가
         
     2. 프론트에서 값을 출력
-        1. **`useState`** 훅을 사용하여 상태 변수들(**`data`**, **`searchTerm`**, **`selectedCategory`**)을 초기화
-        2. **`useEffect`** 훅을 사용하여 컴포넌트가 마운트될 때 한 번만 실행되는 **`fetchData`** 함수를 호출
-        3. **`axios.get('/ex/twoculture')`**를 사용하여 서버의 **`/ex/twoculture`** 엔드포인트로 GET 요청을 보냄.
-        4. **`filteredData.map`** 로 **`filteredData`** 배열의 각 요소를 가져와서 해당 요소를 나타내는 JSX 코드를 생성해 정보를 나타내는 요소를 렌더링
+        a. **`useState`** 훅을 사용하여 상태 변수들(**`data`**, **`searchTerm`**, **`selectedCategory`**)을 초기화
+        b. **`useEffect`** 훅을 사용하여 컴포넌트가 마운트될 때 한 번만 실행되는 **`fetchData`** 함수를 호출
+        c. **`axios.get('/ex/twoculture')`**를 사용하여 서버의 **`/ex/twoculture`** 엔드포인트로 GET 요청을 보냄.
+        d. **`filteredData.map`** 로 **`filteredData`** 배열의 각 요소를 가져와서 해당 요소를 나타내는 JSX 코드를 생성해 정보를 나타내는 요소를 렌더링
         
 
 ### Link 페이지 이동 데이터 전달 오류
