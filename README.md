@@ -248,6 +248,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 
 - 문제 발생
     - **`activeStartDate`** 속성을 사용해 데이터에 시작일이 해당되는 달이 가장 먼저 나타나게 작업하려 했으나, 해당 달이 가장 먼저 나타나지만 다음달로 넘어가지 않는 문제가 발생
+      
 - 문제 원인
     - 
 - 해결 과정
