@@ -131,11 +131,11 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
             - 인증키는 .env를 사용해 값을 가려줌
             - .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
             
-            ![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
+![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
             
-            ![Untitled (12)](https://github.com/mjkkcalb/ticketing/assets/142865257/5bc3eaad-0353-4ee8-8801-cf3b549cb883)
+![Untitled (12)](https://github.com/mjkkcalb/ticketing/assets/142865257/5bc3eaad-0353-4ee8-8801-cf3b549cb883)
             
-            ```jsx
+            ```
                 const response = await axios.get(
                   `http://openapi.seoul.go.kr:8088/${process.env.APPKEY}/json/culturalEventInfo/1/500/`,
                   {
