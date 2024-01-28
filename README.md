@@ -121,14 +121,15 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 ![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
   1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
 
-        a. axios를 사용해 서버에 http 요청을 보내고 받아옴
+     a. axios를 사용해 서버에 http 요청을 보내고 받아옴
             
-            **const axios = require("axios")**
+            `const axios = require("axios")`
             
-        b. 비동기 함수로 클라이언트로부터의 요청(**`req`**)과 서버로의 응답(**`res`**)을 처리. Express의 라우터에서 사용됨
-        c. 데이터를 받아오기 위해 url 값과 필수 요청 값 작성
-            - 인증키는 .env를 사용해 값을 가려줌
-            - .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
+     b. 비동기 함수로 클라이언트로부터의 요청(**`req`**)과 서버로의 응답(**`res`**)을 처리. Express의 라우터에서 사용됨
+     
+     c. 데이터를 받아오기 위해 url 값과 필수 요청 값 작성
+         - 인증키는 .env를 사용해 값을 가려줌
+         - .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
             
 ![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
             
