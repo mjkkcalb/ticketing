@@ -119,6 +119,9 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     - 로그인 후 인증키 신청 작성 → 이메일로 신청키 받기
     
 ![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
+
+<hr>
+
   1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
 
      a. axios를 사용해 서버에 http 요청을 보내고 받아옴 `const axios = require("axios")`
@@ -133,6 +136,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
             1. `const cors = require("cors");`
             2. `app.options("*", cors());`
             3. front file → package.json → `proxy` 추가
+
+<hr>
             
 ![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
             
