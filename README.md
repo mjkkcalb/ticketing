@@ -41,7 +41,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 | 결제페이지 | - mongoDB에 저장된 해당 데이터 출력 <br>- 필수 작성칸(이름, 휴대전화, 이메일) 미입력 시 경고 알림 <br>- 결제 방식 선택 <br>- 결제 버튼 클릭 시 결제 시간 및 결제 방식 저장 |
 | 마이페이지 | - 프로필 이미지 선택 및 수정 <br>- 로그아웃 <br>- 결제 내역 확인 <br>- 예약 내역 확인 <br>- 내가 작성한 리뷰 확인(미작업)  |
 
----
+<br>
 
 ## 기술 및 개발 환경
 
@@ -60,7 +60,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 - 결제 시 데이터 저장 및 결제 정보, 예약 티켓 확인
 - 리뷰 작성 ( 미작업)
 
----
+<br>
+
 
 ## 문제 및 해결방안
 
@@ -99,7 +100,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     
 ![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
 
-<hr>
+<br>
+
 
   1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
 
@@ -116,7 +118,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
             2. `app.options("*", cors());`
             3. front file → package.json → `proxy` 추가
 
-<hr>
+<br>
+
             
 ![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
             
@@ -136,7 +139,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
                     }
  ```
             
-<hr>
+<br>
+
         
  2. 프론트에서 값을 출력
     
@@ -147,7 +151,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     c. **`axios.get('/ex/twoculture')`**를 사용하여 서버의 **`/ex/twoculture`** 엔드포인트로 GET 요청을 보냄.
     
     d. **`filteredData.map`** 로 **`filteredData`** 배열의 각 요소를 가져와서 해당 요소를 나타내는 JSX 코드를 생성해 정보를 나타내는 요소를 렌더링
-        
+
+<hr>
 
 ### Link 페이지 이동 데이터 전달 오류
 
@@ -183,6 +188,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     </Link>
     ```
     
+<hr>
 
 ### 결제 페이지 결제 시간 및 결제 방식 데이터 저장
 
@@ -194,6 +200,8 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 - 해결 과정
     - 스키마 정의의 값을 수정해 데이터에 맞는 코드로 입력
         - PaymentTime → Date / PaymentMethod → String
+
+<hr>
 
 ### 결제 시 장바구니 데이터 자동 삭제
 
@@ -222,6 +230,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
           console.error('Reservation error:', error);
     ```
     
+<hr>
 
 ### 예약 날짜에 맞춰 해당 달이 보여짐 (해결 x)
 
