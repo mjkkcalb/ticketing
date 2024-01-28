@@ -138,7 +138,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 ![Untitled (12)](https://github.com/mjkkcalb/ticketing/assets/142865257/5bc3eaad-0353-4ee8-8801-cf3b549cb883)
 
             
-            ```
+            ```jsx
                 const response = await axios.get(
                   `http://openapi.seoul.go.kr:8088/${process.env.APPKEY}/json/culturalEventInfo/1/500/`,
                   {
