@@ -157,13 +157,17 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
                     }
  ```
             
-        
+<hr>
         
  2. 프론트에서 값을 출력
-        a. **`useState`** 훅을 사용하여 상태 변수들(**`data`**, **`searchTerm`**, **`selectedCategory`**)을 초기화
-        b. **`useEffect`** 훅을 사용하여 컴포넌트가 마운트될 때 한 번만 실행되는 **`fetchData`** 함수를 호출
-        c. **`axios.get('/ex/twoculture')`**를 사용하여 서버의 **`/ex/twoculture`** 엔드포인트로 GET 요청을 보냄.
-        d. **`filteredData.map`** 로 **`filteredData`** 배열의 각 요소를 가져와서 해당 요소를 나타내는 JSX 코드를 생성해 정보를 나타내는 요소를 렌더링
+    
+    a. **`useState`** 훅을 사용하여 상태 변수들(**`data`**, **`searchTerm`**, **`selectedCategory`**)을 초기화
+    
+    b. **`useEffect`** 훅을 사용하여 컴포넌트가 마운트될 때 한 번만 실행되는 **`fetchData`** 함수를 호출
+    
+    c. **`axios.get('/ex/twoculture')`**를 사용하여 서버의 **`/ex/twoculture`** 엔드포인트로 GET 요청을 보냄.
+    
+    d. **`filteredData.map`** 로 **`filteredData`** 배열의 각 요소를 가져와서 해당 요소를 나타내는 JSX 코드를 생성해 정보를 나타내는 요소를 렌더링
         
 
 ### Link 페이지 이동 데이터 전달 오류
