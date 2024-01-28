@@ -118,7 +118,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     - 해당 데이터 페이지에서 인증키 신청
     - 로그인 후 인증키 신청 작성 → 이메일로 신청키 받기
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a669081c-5776-46fa-897c-e787e4b50139/841dac2b-c96c-4188-8774-a5d1ee8a976b/Untitled.png)
+![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
     
     ---
     
@@ -132,9 +132,9 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
             1. 인증키는 .env를 사용해 값을 가려줌
             2. .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a669081c-5776-46fa-897c-e787e4b50139/844530be-2a4a-4a3e-bca8-b60e6e3de26a/Untitled.png)
+            ![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a669081c-5776-46fa-897c-e787e4b50139/3a8fd117-e04f-48aa-b803-14a16cccf308/Untitled.png)
+            ![Untitled (12)](https://github.com/mjkkcalb/ticketing/assets/142865257/5bc3eaad-0353-4ee8-8801-cf3b549cb883)
             
             ```jsx
                 const response = await axios.get(
