@@ -119,10 +119,12 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     - 로그인 후 인증키 신청 작성 → 이메일로 신청키 받기
     
 ![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
+            
+![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
+            
+![Untitled (12)](https://github.com/mjkkcalb/ticketing/assets/142865257/5bc3eaad-0353-4ee8-8801-cf3b549cb883)
 
-    
-    
-    1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
+        1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
         a. axios를 사용해 서버에 http 요청을 보내고 받아옴
             
             `const axios = require("axios")`
@@ -131,12 +133,6 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
         c. 데이터를 받아오기 위해 url 값과 필수 요청 값 작성
             - 인증키는 .env를 사용해 값을 가려줌
             - .env 에 저장한 값을 가져올 때는 `process.env.APPKEY` 형태로 작성한다
-            
-            
-![Untitled (11)](https://github.com/mjkkcalb/ticketing/assets/142865257/4518094e-ab13-49f7-8367-88943c8d4b88)
-            
-![Untitled (12)](https://github.com/mjkkcalb/ticketing/assets/142865257/5bc3eaad-0353-4ee8-8801-cf3b549cb883)
-
             
             ```jsx
                 const response = await axios.get(
