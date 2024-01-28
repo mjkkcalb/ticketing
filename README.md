@@ -120,7 +120,6 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     
 ![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
     
-    ---
     
     1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
         1. axios를 사용해 서버에 http 요청을 보내고 받아옴
