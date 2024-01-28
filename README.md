@@ -120,9 +120,10 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
     
 ![Untitled (10)](https://github.com/mjkkcalb/ticketing/assets/142865257/5dfb9947-2111-44e1-8606-84bd294ba4a2)
   1. node.js 환경에서 Express를 사용해 백엔드 서버 구축 후 데이터 받아오기
+
         a. axios를 사용해 서버에 http 요청을 보내고 받아옴
             
-            `const axios = require("axios")`
+            **const axios = require("axios")**
             
         b. 비동기 함수로 클라이언트로부터의 요청(**`req`**)과 서버로의 응답(**`res`**)을 처리. Express의 라우터에서 사용됨
         c. 데이터를 받아오기 위해 url 값과 필수 요청 값 작성
@@ -152,7 +153,7 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
             2. `app.options("*", cors());`
             3. front file → package.json → `proxy` 추가
         
-    2. 프론트에서 값을 출력
+ 2. 프론트에서 값을 출력
         a. **`useState`** 훅을 사용하여 상태 변수들(**`data`**, **`searchTerm`**, **`selectedCategory`**)을 초기화
         b. **`useEffect`** 훅을 사용하여 컴포넌트가 마운트될 때 한 번만 실행되는 **`fetchData`** 함수를 호출
         c. **`axios.get('/ex/twoculture')`**를 사용하여 서버의 **`/ex/twoculture`** 엔드포인트로 GET 요청을 보냄.
