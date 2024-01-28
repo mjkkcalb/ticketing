@@ -2,8 +2,6 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 
 # 🎟️Ticketing
 
----
-
 ## 프로젝트 개요
 
 - **프로젝트 명칭**
@@ -100,7 +98,6 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
         - 다양한 정보가 아닌 예술의 전당 한정 데이터만 추출되어 정보가 한정적임
         - 업데이트 속도가 느려 이미 종료된 이벤트가 많음
         
-        ---
         
     
     - 변경 데이터
