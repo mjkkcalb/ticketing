@@ -25,16 +25,11 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 
 - **고려사항**
 
-| Frontend | - 언어: JavaScript (React)
-- 프레임워크: React.js
-- 모듈화된 CSS인 module.css 사용
-- 라우팅 : React Router 사용 |
+| Frontend | - 언어: JavaScript (React) <br>- 프레임워크: React.js <br>- 모듈화된 CSS인 module.css 사용 <br>- 라우팅 : React Router 사용 |
 | --- | --- |
-| Backend | - Node.js, Express, Axios 활용한 서버 개발
-- 엔드포인트, GET 및 POST 메소드 이해 |
-| Data-Base | - mongoDB 연결을 통한 데이터 저장
-- CORS 이슈 해결 및 데이터베이스 통신 원활하게
-- Open API 사용법 숙지 및 데이터 가공 후 내보내기 계획 |
+| Backend | - Node.js, Express, Axios 활용한 서버 개발 <br>- 엔드포인트, GET 및 POST 메소드 이해 |
+| Data-Base | - mongoDB 연결을 통한 데이터 저장 <br>- CORS 이슈 해결 및 데이터베이스 통신 원활하게 <br>- Open API 사용법 숙지 및 데이터 가공 후 내보내기 계획 |
+  
 - **페이지별 핵심기능**
 
 | 로그인 | - 회원가입
@@ -64,14 +59,11 @@ https://port-0-ticketing-5r422alqm2rj1x.sel4.cloudtype.app
 
 ## 기술 및 개발 환경
 
-- **사용기술**
-    - frontend - react, axios, js
-    - backend - node.js, express, rest api
-    - design - figma, photoshop
-    - tools - github, notion
-    
 
----
+| FrontEnd | BackEnd | Design | Tools |
+| :----: | :----: | :----: | :----: |
+| <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/styledcomponents-CC6699?style=flat-square&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/axios-7F2B7B?style=flat-square&logo=axios&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=JavaScript&logoColor=black"> | <img src="https://img.shields.io/badge/REST API-000000?style=flat-square&logo=logoColor=white"> <img src="https://img.shields.io/badge/nodedotjs-green.svg?style=flat-square&logo=nodedotjs&logoColor=black"> <img src="https://img.shields.io/badge/express-red.svg?style=flat-square&logo=express&logoColor=black"> | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"> | <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000.svg?style=flat-square&logo=Notion&logoColor=white"> <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=Discord&logoColor=white"> | 
+
 
 ## 주요기능
 
