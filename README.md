@@ -68,6 +68,12 @@
 
 <br>
 
+| 로그인                                                 | 메인                                                             |
+| ------------------------------------------------------ | ----------------------------------------------------------------- |
+| <img src="https://github.com/mjkkcalb/ticketing/assets/142865257/52dc171d-659b-45b2-a362-804f7ab2e566" width="350"> | <img src="https://github.com/mjkkcalb/ticketing/assets/142865257/c386436f-44ba-44c4-9a05-9a71937da716" width="350"> |
+| 장바구니 및 결제                                         | 마이페이지                                                     |
+| <img src="https://github.com/mjkkcalb/ticketing/assets/142865257/2a1df194-9916-41bd-b24d-35600a154fe9" width="350"> | <img src="https://github.com/mjkkcalb/ticketing/assets/142865257/f31b6eac-49a2-4efb-8aaf-314882f884e6" width="350"> |
+
 ## 문제 및 해결방안
 
 ### 문화 API 연결
