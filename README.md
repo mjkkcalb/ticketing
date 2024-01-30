@@ -67,7 +67,7 @@
 ![녹음 2024-01-30 143311](https://github.com/mjkkcalb/ticketing/assets/142865257/34d423aa-0a9a-48bd-a081-2cb61b2c45eb)
 ![녹음 2024-01-30 143757](https://github.com/mjkkcalb/ticketing/assets/142865257/b7f79192-8e93-4b2f-aea6-618332115291)
 
-|<img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/cac5e0ee-db9b-4539-a22c-ac1ad513be84"/>|  |
+|<img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/34d423aa-0a9a-48bd-a081-2cb61b2c45eb"/>|  |
 | :----: | :----: | 
 | | |
 
