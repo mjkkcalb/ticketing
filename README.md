@@ -2,12 +2,6 @@
 
 # 🎟️Ticketing
 
-![9cc9f4c9-d0b2-4369-9d2b-9f8e0bc757e8](https://github.com/mjkkcalb/ticketing/assets/142865257/52dc171d-659b-45b2-a362-804f7ab2e566)
-![b6823a1f-0835-4124-adac-243b728816eb](https://github.com/mjkkcalb/ticketing/assets/142865257/c386436f-44ba-44c4-9a05-9a71937da716)
-![e7187ef8-c299-49d8-bf76-30a302ccf0af](https://github.com/mjkkcalb/ticketing/assets/142865257/2a1df194-9916-41bd-b24d-35600a154fe9)
-![79e93e2c-3e64-4036-b7bc-51d0909ca31e](https://github.com/mjkkcalb/ticketing/assets/142865257/f31b6eac-49a2-4efb-8aaf-314882f884e6)
-
-
 ## 프로젝트 개요
 
 - **프로젝트 명칭**
