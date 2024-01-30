@@ -67,9 +67,9 @@
 ![녹음 2024-01-30 143311](https://github.com/mjkkcalb/ticketing/assets/142865257/34d423aa-0a9a-48bd-a081-2cb61b2c45eb)
 ![녹음 2024-01-30 143757](https://github.com/mjkkcalb/ticketing/assets/142865257/b7f79192-8e93-4b2f-aea6-618332115291)
 
-|<img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/34d423aa-0a9a-48bd-a081-2cb61b2c45eb"/>|  |
+|<img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/34d423aa-0a9a-48bd-a081-2cb61b2c45eb"/>| <img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/0d7c5ae8-30ca-414b-b4f1-f3d0cefa3b38"/> |
 | :----: | :----: | 
-| | |
+| <img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/d8becdae-cb67-4658-98c6-d712643ec4f5"/> | <img width="80%" src="https://github.com/mjkkcalb/ticketing/assets/142865257/b7f79192-8e93-4b2f-aea6-618332115291"/> |
 
 ## 문제 및 해결방안
 
