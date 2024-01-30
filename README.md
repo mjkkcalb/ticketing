@@ -62,6 +62,9 @@
 
 <br>
 
+| https://github.com/mjkkcalb/ticketing/assets/142865257/cac5e0ee-db9b-4539-a22c-ac1ad513be84 |  |
+| :----: | :----: | 
+| | |
 
 ## 문제 및 해결방안
 
