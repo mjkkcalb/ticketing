@@ -74,7 +74,7 @@
 | <img src="https://github.com/mjkkcalb/ticketing/assets/142865257/2a1df194-9916-41bd-b24d-35600a154fe9" width="350"> | <img src="https://github.com/mjkkcalb/ticketing/assets/142865257/c386436f-44ba-44c4-9a05-9a71937da716" width="350"> |
 <br>
 
-## ⚙️문제 및 해결방안
+## ⚙️트러블 슈팅
 
 ### 📌 문화 API 연결
 
