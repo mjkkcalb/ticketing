@@ -1,0 +1,44 @@
+
+.globalMenu {
+  width: 390px;
+  height: 81px;
+  border-top: 1px solid #ddd;
+  background-color: #ffffff;
+  z-index: 999;
+  position: fixed;
+  top: 813px;
+}
+
+.globalMenuItem {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 65px;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.globalMenuItem > li {
+  height: 65px;
+  list-style: none;
+}
+
+.globalMenuItem > li > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  width: 50px;
+  font-size: 12px;
+}
+
+.globalMenuItem > li > a > span {
+  margin-bottom: 0;
+}
+
+.globalMenuItem > li > a > svg {
+  width: 22px;
+  height: 22px;
+}

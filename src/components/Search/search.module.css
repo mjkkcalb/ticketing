@@ -1,0 +1,411 @@
+
+.searchBox{
+  width: 390px;
+  height: 844px;
+  /* margin: 0 20px 0;   */
+  overflow-y: scroll;
+}
+.searchBox::-webkit-scrollbar {
+  width: 0px;
+}
+
+.searchTop{
+position: fixed;
+top: 1;
+z-index: 1;
+background-color: #fff;
+margin: 0 20px;
+}
+
+.searchLogo{
+  margin: 50px 0 15px;
+}
+
+.searchinput{
+  display: flex;
+  background-color: #eeeeef;
+  height: 36px;
+  width: 330px;
+  border-radius: 10px;
+  padding: 0 10px 0;
+  align-items: center;
+}
+
+.searchinput select{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.searchinput input{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.searchcheckbox{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.searchcheckbox input:checked{
+  color: #DC3644;
+}
+.searchcheckbox label:first-child{
+  margin-right: 10px;
+}
+.searchListTop{
+  margin: 190px 20px 0;
+  width: 350px;
+}
+
+.searchList{
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  width: 330px;
+}
+.searchListImg{
+  width: 80px;
+  height: 110px;
+}
+.searchListTxt{
+  font-size: 12px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.searchListinfo{
+  width: 70%;
+}
+
+.searchListinfo p{
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.searchListReserve p{
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.searchListReserve button{
+  position: absolute;
+  bottom: 10px;
+  right:  10px;
+  font-size: 12px;
+  background-color: #DC3644;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.searchLodingTxt{
+  margin-top: 180px;
+}
+
+/* 예약 페이지 */
+.reserveBox{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 390px;
+  height: 844px;
+}
+
+.reserveBox::-webkit-scrollbar {
+  width: 0px;
+}
+
+.reserveBoxImg{
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+.reserveCancleBtn{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 333;
+  background-color: transparent;
+  border: none;
+}
+.reserveCancleBtn svg{
+  width: 24px;
+  height: 24px;
+  /* color: #fff; */
+}
+.reserveBoxTxt{
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  top: 330px;
+  padding: 0 20px 0;
+  box-shadow: 0px -2px 10px 1px rgba(0,0,0,0.3);
+}
+.reserveBoxBtn{
+  position: fixed;
+  bottom: 65px;
+  width: 350px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: #DC3644;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.reserveModalBack{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50px;
+  width: 390px;
+  height: 844px;
+}
+.reserveModal{
+  position: fixed;
+  top: 585px;
+  left: 50%;
+  width: 390px;
+  height: 100%;
+  z-index: 2;
+}
+.reserveModalContent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+.reserveModalContentTop{
+  position: relative;
+}
+.reserveModalContentTop button{
+ position: absolute;
+ top: 0;
+ right: 0;
+ border: none;
+ background-color: transparent;
+}
+.reserveModalContentTop button svg{
+  width: 24px;
+  height: 24px;
+  color: #222;
+}
+.reservePaymentBtn{
+  width: 350px;
+  height: 45px;
+  background-color: #DC3644;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.reserveBtn{
+  width: 350px;
+  height: 45px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* 캘린더 */
+.calendarContainer {
+  border-radius: 10px;
+}
+
+/* 현재 날짜에 적용되는 스타일 */
+.currentDate {
+  background-color: transparent !important;
+}
+
+/* 선택한 날짜에 적용되는 스타일 */
+.selectedDate {
+  background-color: #DC3644 !important;
+}
+
+
+
+
+/* 결제 페이지 */
+.paymentBox{
+  width: 390px;
+  height: 844px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.paymentBox::-webkit-scrollbar {
+  width: 0px;
+}
+
+.paymentTop{
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.paymentTop h2{
+  margin: 15px 0;
+  font-size: 20px;
+}
+.paymentTop button{
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+}
+.paymentTop button svg{
+  width: 24px;
+  height: 24px;
+}
+.paymentInfo{
+  padding: 0 20px 0;
+  width: 350px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+.paymentInfoTxt{
+  margin-left: 15px;
+}
+
+.paymentInfoTxt h4{
+  margin: 0;
+}
+.paymentInfoBox{
+  display: flex;
+  margin-bottom: 15px;
+}
+.paymentInfoBox img{
+  width: 80px;
+  height: 110px;
+  border-radius: 10px;
+}
+.paymentPlusTxt{
+  background-color: #eeeeef;
+  width: 350px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+}
+.paymentPlusTxt tr{
+  text-align: left;
+}
+.paymentPlusTxt td{
+  text-align: right;
+}
+
+.paymentUserInfo{
+  padding: 0 20px 15px;
+  width: 350px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+.paymentUserInfo ul{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.paymentUserInfo li{
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.paymentUserInfo p{
+  margin: 3px 0;
+}
+.paymentUserInfo input{
+  width: 230px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.paymentUserInfoTxt{
+  font-size: 11px;
+  background-color: #eeeeef;
+  border-radius: 10px;
+  color: #DC3644;
+  text-align: center;
+  padding: 2px 5px;
+}
+.paymentSum{
+  padding: 0 20px 15px;
+  width: 350px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+.paymentType{
+  padding: 0 20px 15px;
+  width: 350px;
+  font-size: 14px;
+}
+
+.paymentType ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.paymentType li{
+  width: calc(25% - 10px); /* 4칸 중 1칸(간격 제외) */
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.paymentType li img{
+  width: 70px;
+  height: 35px;
+  object-fit: contain;
+}
+.paymentType svg{
+  width: 70px;
+  height: 35px;
+}
+.paymentType li p {
+  margin: 5px 0;
+}
+.paymentSumTxt{
+  width: 350px;
+  padding: 5px 0;
+}
+.paymentSumTxt tr{
+  text-align: left;
+}
+.paymentSumTxt td{
+  text-align: right;
+}
+.paymentBtn{
+  width: 350px;
+  height: 50px;
+  background-color: #DC3644;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-left: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
